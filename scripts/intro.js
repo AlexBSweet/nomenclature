@@ -348,6 +348,25 @@ const introGlyphsSection = () =>{
 
 
 
+const setIntro = ()=>{
+  headerRight.style.display = 'block'
+  pageTitle.innerHTML = "Intro"
+  const typeFacePageContainer = document.querySelector('section.tf-content-container')
+  const selects = document.querySelectorAll('select')
+  const bodyDividers = document.querySelectorAll('div.body-divider')
+  const ltLines = document.querySelectorAll('div.lt-line')
+
+  bodyTag.style.backgroundColor = '#f2f2f2'
+  typeFacePageContainer.style.backgroundColor='#f2f2f2'
+  // headerTag.style.backgroundColor = '#f2f2f2'
+  headerWrapper.style.backgroundColor = '#f2f2f2'
+  siteTitle.style.color = "#000"
+}
+
+
+
+
+
 // this ensures that these functions only run if the page is intro, this way we don't get errors on the other pages that also contain this script file
 const introFunctions = ()=>{
   if(document.querySelector('article').classList.contains('intro-page')){

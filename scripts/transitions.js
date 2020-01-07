@@ -6,7 +6,6 @@ barba.init({
     {
       name: 'main',
       leave({current, next, trigger}){
-          
           return new Promise (resolve=>{
             const timeline = gsap.timeline()
             current.container.remove()
@@ -41,6 +40,9 @@ barba.init({
   views: [
     {
       namespace: 'intro', 
+      beforeEnter(){
+        setIntro()
+      },
       afterEnter(){
         introFunctions()
         animateAlphabet()
@@ -57,6 +59,9 @@ barba.init({
     }, 
     {
       namespace: 'intro-mono', 
+      beforeEnter(){
+        setIntroMono()
+      },
       afterEnter(){
         introMonoFunctions()
         animateAlphabet()
@@ -73,6 +78,9 @@ barba.init({
     }, 
     {
       namespace: 'dim', 
+      beforeEnter(){
+        setDim()
+      },
       afterEnter(){
         dimFunctions()
         animateAlphabet()
@@ -89,6 +97,9 @@ barba.init({
     }, 
     {
       namespace: 'kedzie', 
+      beforeEnter(){
+        setKedzie()
+      },
       afterEnter(){
         kedzieFunctions()
         animateAlphabet()
@@ -105,6 +116,9 @@ barba.init({
     }, 
     {
       namespace: 'queen-anne', 
+      beforeEnter(){
+        setQueenAnne()
+      },
       afterEnter(){
         queenAnneFunctions()
         animateAlphabet()
@@ -121,6 +135,9 @@ barba.init({
     }, 
     {
       namespace: 'sharp-stencil', 
+      beforeEnter(){
+        setSharpStencil()
+      },
       afterEnter(){
         sharpStencilFunctions()
         animateAlphabet()
@@ -133,13 +150,17 @@ barba.init({
     }, 
     {
       namespace: 'all-fonts',
+      beforeEnter(){
+        afSet()
+      },
         afterEnter(){
-        scrollWindow()
-        scrollTextEffect()
-        observerAnimation()
-        cursorAnimation()
-        cursorAnimationTwo()
-        characterGIF()
+          allFontsFunctions()
+          scrollWindow()
+          scrollTextEffect()
+          observerAnimation()
+          cursorAnimation()
+          cursorAnimationTwo()
+          characterGIF()
       }
     }
   ]

@@ -313,7 +313,10 @@ const qaBodySamples = ()=>{
 
 
 
-
+const setQueenAnne = ()=>{
+  headerRight.style.display = 'block'
+  pageTitle.innerHTML = "Queen Anne"
+}
 
 
 

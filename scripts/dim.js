@@ -256,6 +256,13 @@ const dimGlyphsSection = () =>{
 
 
 
+const setDim = ()=>{
+  headerRight.style.display = 'block'
+  pageTitle.innerHTML = "DIM"
+}
+
+
+
 // this ensures that these functions only run if the page is intro, this way we don't get errors on the other pages that also contain this script file
 
 // note that it would be nice to programatically set the stylesheet to be for dim rather than intro or whatever other typeface

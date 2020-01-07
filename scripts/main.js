@@ -1,11 +1,14 @@
+const articleTag = document.querySelector('article')
 const headerWrapper = document.querySelector('div.header-wrapper')
 const headerLine = document.querySelector('div.header-line')
 const headerTag = document.querySelector('header')
+const headerRight = document.querySelector('div.header-far-right')
 const bodyTag = document.querySelector('body')
 const largeTextSpans = document.querySelectorAll('div.large-text span')
 const tfNavLinks = document.querySelectorAll('div.tf-nav a')
 const headerLinks = document.querySelectorAll('div.header-right a')
 const siteTitle = document.querySelector('div.header-left p')
+const pageTitle = document.querySelector('title')
 
 
 

@@ -256,6 +256,25 @@ const introMonoGlyphsSection = () =>{
 
 
 
+const setIntroMono = ()=>{
+  headerRight.style.display = 'block'
+  pageTitle.innerHTML = "Intro Mono"
+  const typeFacePageContainer = document.querySelector('section.tf-content-container')
+  const selects = document.querySelectorAll('select')
+  const bodyDividers = document.querySelectorAll('div.body-divider')
+  const ltLines = document.querySelectorAll('div.lt-line')
+
+  bodyTag.style.backgroundColor = '#74968a'
+  typeFacePageContainer.style.backgroundColor='#74968a'
+  // headerTag.style.backgroundColor = '#f2f2f2'
+  headerWrapper.style.backgroundColor = '#74968a'
+  siteTitle.style.color = "#000"
+  typeFacePageContainer.style.color = '#f5f6ef'
+}
+
+
+
+
 
 // this ensures that these functions only run if the page is intro, this way we don't get errors on the other pages that also contain this script file
 const introMonoFunctions = ()=>{

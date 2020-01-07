@@ -234,7 +234,10 @@ const kedzieBodySamples = ()=>{
 }
 
 
-
+const setKedzie = ()=>{
+  headerRight.style.display = 'block'
+  pageTitle.innerHTML = "Kedzie"
+}
 
 
 

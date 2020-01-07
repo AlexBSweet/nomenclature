@@ -111,7 +111,7 @@ div.fader{
   right:0;
   bottom:0;
   background-color:var(--white);
-  z-index: 4;
+  z-index: 20;
   pointer-events: none;
   opacity:0;
 }

@@ -14,7 +14,10 @@ const ssGlyphsSection = ()=>{
 }
 
 
-
+const setSharpStencil = ()=>{
+  headerRight.style.display = 'block'
+  pageTitle.innerHTML = "Sharp Stencil"
+}
 
 
 

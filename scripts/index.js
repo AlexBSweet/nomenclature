@@ -1,39 +1,39 @@
 
 
 
-const marquee = document.querySelector('div.marquee-top')
-const someText = 'some text'
+// const marquee = document.querySelector('div.marquee-top')
+// const someText = 'some text'
 
-const marqueeText = new Array(500).fill(someText).join(' ')
+// const marqueeText = new Array(500).fill(someText).join(' ')
 
-marquee.innerHTML = marqueeText
+// marquee.innerHTML = marqueeText
 
 
-let position = 0
+// let position = 0
 
-let xPosition = marquee.getBoundingClientRect().left
+// let xPosition = marquee.getBoundingClientRect().left
 
-setInterval(()=>{
-  position = position - 1
+// setInterval(()=>{
+//   position = position - 1
 
   
-},10)
+// },10)
 
-document.addEventListener('scroll', ()=>{
+// document.addEventListener('scroll', ()=>{
 
-    const pixelsScrolled = window.pageYOffset
+//     const pixelsScrolled = window.pageYOffset
 
-    const dampen = pixelsScrolled/100
+//     const dampen = pixelsScrolled/100
     
-    const val = position + dampen + 'px'
+//     const val = position + dampen + 'px'
 
 
-    console.log(val)
+//     console.log(val)
 
 
-    marquee.style.left= val
+//     marquee.style.left= val
 
 
 
-})
+// })
 

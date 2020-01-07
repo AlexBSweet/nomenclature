@@ -5,6 +5,7 @@
 
 const scrollTextEffect = ()=>{
 
+  if(document.querySelector('article').classList.contains('all-fonts')){
     document.addEventListener('scroll', ()=>{
 
       // letterspacing section
@@ -18,8 +19,10 @@ const scrollTextEffect = ()=>{
       const fontSize = 208
       const fontChange =  pixelsScrolled / 10
       const newFontSize = fontSize - fontChange
+      if(headerText){
+        headerText.style.fontSize = fontSize - fontChange + 'px'
+      }
       
-      headerText.style.fontSize = fontSize - fontChange + 'px'
 
 
       // scroll point section
@@ -29,17 +32,25 @@ const scrollTextEffect = ()=>{
       const bodyTag = document.querySelector('body')
       if(pixelsScrolled>710){
         bodyTag.style.backgroundColor = "#000"
-        headerText.style.color = "#fff"
-        navLinks.style.color = '#fff'
-        navLine.style.backgroundColor = '#fff'
-      } else{
-        headerText.style.color = "#000"
+        if(headerText){
+          headerText.style.color = "#fff"
+        }
+        if(document.querySelector('article').classList.contains('all-fonts')){
+          navLinks.style.color = '#fff'
+          navLine.style.backgroundColor = '#fff'
+        }
+      }else{
+        if(headerText){
+          headerText.style.color = "#000"
+        }
         bodyTag.style.backgroundColor = '#fff'
         navLinks.style.color = '#000'
         navLine.style.backgroundColor = '#000'
       }
      
     })
+  }
+  
   
 }
 
@@ -114,56 +125,35 @@ const characterGIF = ()=>{
       }
       char.innerHTML = characters[counter]
   }, 1300)
-
-
-
-}
-
-
-const fontPageChangeColors = ()=>{
-  
-  const introLink = document.querySelector('a.intro-link')
-  const fontsPageContainer = document.querySelector('section.tf-content-container')
-  const introMonoLink = document.querySelector('a.intro-mono-link')
-  const kedzieLink = document.querySelector('a.kedzie-link')
-  const sharpStencilLink = document.querySelector('a.sharp-stencil-link')
-  const qaLink = document.querySelector('a.queen-anne-link')
-  const dimLink = document.querySelector('a.dim-link')
-
-
-  
-
-  introLink.addEventListener('click', ()=>{
-    bodyTag.style.backgroundColor = '#669999'
-    fontsPageContainer.style.backgroundColor = '#669999'
-    headerLine.style.backgroundColor = '#ffffe6'
-    bodyTag.style.color = '#ffffe6'
-    fontsPageContainer.style.color = '#ffffe6'
-    largeTextSpans.forEach(span=>{
-      span.style.color = '#ffffe6'
-    })
-    headerLinks.forEach(link=>{
-      link.style.color = '#ffffe6'
-    })
-    tfNavLinks.forEach(link=>{
-      link.style.color = '#ffffe6'
-    })
-  })
-
 }
 
 
 
-// only run these functions if the body has the class of all-fonts
+const afSet = ()=>{
+  pageTitle.innerHTML = "All Fonts"
+  headerRight.style.display = "none"
+  headerWrapper.style.backgroundColor = 'transparent'
+  headerTag.style.backgroundColor = 'transparent'
+  const navLinks = document.querySelector('header div p')
+  navLinks.style.color = '#fff'
+}
+
+
+
+
+
+const allFontsFunctions = ()=>{
+  // only run these functions if the body has the class of all-fonts
 if(document.querySelector('article').classList.contains('all-fonts')){
-    scrollWindow()
-    // setColors()
-    scrollTextEffect()
-    observerAnimation()
-    cursorAnimation()
-    cursorAnimationTwo()
-    characterGIF()
-    headerScroll()
-    // fontPageChangeColors()
+  scrollWindow()
+  scrollTextEffect()
+  observerAnimation()
+  cursorAnimation()
+  cursorAnimationTwo()
+  characterGIF()
+  headerScroll()
+  afSet()
 }
+}
+allFontsFunctions()
 

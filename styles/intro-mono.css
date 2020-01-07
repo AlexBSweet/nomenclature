@@ -5,7 +5,50 @@
   font-size:90px;
   font-variation-settings: 'wght' 400;
 }
-
+section.intro-mono-styles sup{
+  font-size: 42px;
+  margin-right:10px;
+}
+section.intro-mono-styles{
+  padding-top:100px;
+}
+section.intro-mono-styles p{
+  font-size: 80px;
+  border-top:1px solid;
+  margin:50px 0;
+}
+section.intro-mono-styles h2{
+  grid-column: 1/13;
+}
+section.intro-mono-styles div:nth-child(2){
+  grid-column: 1/7;
+  grid-row: 2;
+}
+section.intro-mono-styles div:nth-child(3){
+  grid-column: 7/13;
+  grid-row: 2;
+}
+.im-el{
+  font-variation-settings: 'wght' 100;
+}
+.im-l{
+  font-variation-settings: 'wght' 200;
+}
+.im-r{
+  font-variation-settings: 'wght' 400;
+}
+.im-m{
+  font-variation-settings: 'wght' 500;
+}
+.im-sb{
+  font-variation-settings: 'wght' 600;
+}
+.im-b{
+  font-variation-settings: 'wght' 700;
+}
+.im-bl{
+  font-variation-settings: 'wght' 800;
+}
 div.body-copy.intro-mono{
   margin-top:60px;
 }

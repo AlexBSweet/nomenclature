@@ -127,7 +127,7 @@ select.select-css.light{
 
 /* INTRO SECTION ====================================================== */
 section.tf-one{
-  margin-top:140px;
+  margin-top:120px;
   padding:0 40px;
   box-sizing: border-box;
   display:grid;
@@ -255,9 +255,6 @@ p.full-width{
   outline: none;
   overflow-x: scroll;
   line-height: 1.25;
-}
-section.samples{
-  margin-top:200px;
 }
 div.sample{
   border-top:1px solid;
