@@ -1,0 +1,164 @@
+div.tf-details-one,
+div.tf-details-two{
+  font-family: Intro;
+}
+.dim{
+  font-family: DIM;
+}
+div.alphabet-container.dim{
+  font-variation-settings: 'wght' 600, 'wdth' 50;
+}
+div.large-text.dim{
+  font-variation-settings: 'wght' 400, 'wdth' 80;
+}
+section.dim-styles{
+  border-top:1px solid;
+  padding-top:100px;
+}
+section.dim-styles div{
+  padding-right:40px;
+  font-size: 32px;
+}
+section.dim-styles div:nth-child(1){
+  grid-column: 1/4;
+}
+section.dim-styles div:nth-child(2){
+  grid-column: 4/7;
+}
+section.dim-styles div:nth-child(3){
+  grid-column: 7/10;
+}
+section.dim-styles div:nth-child(4){
+  grid-column: 10/13;
+}
+
+div.dim-compressed p:nth-child(1){
+  font-variation-settings: 'wght' 100, 'wdth' 1;
+}
+div.dim-compressed p:nth-child(2){
+  font-variation-settings: 'wght' 200, 'wdth' 1;
+}
+div.dim-compressed p:nth-child(3){
+  font-variation-settings: 'wght' 300, 'wdth' 1;
+}
+div.dim-compressed p:nth-child(4){
+  font-variation-settings: 'wght' 400, 'wdth' 1;
+}
+div.dim-compressed p:nth-child(5){
+  font-variation-settings: 'wght' 500, 'wdth' 1;
+}
+div.dim-compressed p:nth-child(6){
+  font-variation-settings: 'wght' 600, 'wdth' 1;
+}
+div.dim-compressed p:nth-child(7){
+  font-variation-settings: 'wght' 700, 'wdth' 1;
+}
+div.dim-compressed p:nth-child(8){
+  font-variation-settings: 'wght' 800, 'wdth' 1;
+}
+div.dim-compressed p:nth-child(9){
+  font-variation-settings: 'wght' 900, 'wdth' 1;
+}
+div.dim-condensed p:nth-child(1){
+  font-variation-settings: 'wght' 100, 'wdth' 30;
+}
+div.dim-condensed p:nth-child(2){
+  font-variation-settings: 'wght' 200, 'wdth' 30;
+}
+div.dim-condensed p:nth-child(3){
+  font-variation-settings: 'wght' 300, 'wdth' 30;
+}
+div.dim-condensed p:nth-child(4){
+  font-variation-settings: 'wght' 400, 'wdth' 30;
+}
+div.dim-condensed p:nth-child(5){
+  font-variation-settings: 'wght' 500, 'wdth' 30;
+}
+div.dim-condensed p:nth-child(6){
+  font-variation-settings: 'wght' 600, 'wdth' 30;
+}
+div.dim-condensed p:nth-child(7){
+  font-variation-settings: 'wght' 700, 'wdth' 30;
+}
+div.dim-condensed p:nth-child(8){
+  font-variation-settings: 'wght' 800, 'wdth' 30;
+}
+div.dim-condensed p:nth-child(9){
+  font-variation-settings: 'wght' 900, 'wdth' 30;
+}
+div.dim-middle p:nth-child(1){
+  font-variation-settings: 'wght' 100, 'wdth' 70;
+}
+div.dim-middle p:nth-child(2){
+  font-variation-settings: 'wght' 200, 'wdth' 70;
+}
+div.dim-middle p:nth-child(3){
+  font-variation-settings: 'wght' 300, 'wdth' 70;
+}
+div.dim-middle p:nth-child(4){
+  font-variation-settings: 'wght' 400, 'wdth' 70;
+}
+div.dim-middle p:nth-child(5){
+  font-variation-settings: 'wght' 500, 'wdth' 70;
+}
+div.dim-middle p:nth-child(6){
+  font-variation-settings: 'wght' 600, 'wdth' 70;
+}
+div.dim-middle p:nth-child(7){
+  font-variation-settings: 'wght' 700, 'wdth' 70;
+}
+div.dim-middle p:nth-child(8){
+  font-variation-settings: 'wght' 800, 'wdth' 70;
+}
+div.dim-middle p:nth-child(9){
+  font-variation-settings: 'wght' 900, 'wdth' 70;
+}
+div.dim-wide p:nth-child(1){
+  font-variation-settings: 'wght' 100, 'wdth' 100;
+}
+div.dim-wide p:nth-child(2){
+  font-variation-settings: 'wght' 200, 'wdth' 100;
+}
+div.dim-wide p:nth-child(3){
+  font-variation-settings: 'wght' 300, 'wdth' 100;
+}
+div.dim-wide p:nth-child(4){
+  font-variation-settings: 'wght' 400, 'wdth' 100;
+}
+div.dim-wide p:nth-child(5){
+  font-variation-settings: 'wght' 500, 'wdth' 100;
+}
+div.dim-wide p:nth-child(6){
+  font-variation-settings: 'wght' 600, 'wdth' 100;
+}
+div.dim-wide p:nth-child(7){
+  font-variation-settings: 'wght' 700, 'wdth' 100;
+}
+div.dim-wide p:nth-child(8){
+  font-variation-settings: 'wght' 800, 'wdth' 100;
+}
+div.dim-wide p:nth-child(9){
+  font-variation-settings: 'wght' 900, 'wdth' 100;
+}
+
+
+
+
+div.dm.body-options div.typesize{
+  grid-column: 2/3;
+}
+div.dm.body-options div.weight{
+  grid-column: 3/4;
+}
+div.dm.body-options div.line-height{
+  grid-column: 1/2;
+  grid-row: 2;
+}
+div.dm.body-options div.width{
+  grid-column: 2/3;
+  grid-row: 2;
+}
+div.dm.body-options div.letter-spacing{
+  grid-column: 3/4;
+  grid-row: 2;
+}

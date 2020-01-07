@@ -1,0 +1,64 @@
+.kedzie{
+  font-family: Kedzie Regular;
+}
+.kedzie-regular{
+  font-family: Kedzie Regular;
+}
+.kedzie-italic{
+  font-family: Kedzie Italic;
+}
+.kedzie-medium{
+  font-family: Kedzie Medium;
+}
+.kedzie-medium-italic{
+  font-family: Kedzie Medium Italic;
+}
+.kedzie-bold{
+  font-family: Kedzie Bold;
+}
+.kedzie-bold-italic{
+  font-family: Kedzie Bold Italic;
+}
+.kedzie-heavy{
+  font-family: Kedzie Heavy;
+}
+.kedzie-heavy-italic{
+  font-family: Kedzie Heavy Italic;
+}
+.large-text.kedzie{
+  font-size:80px;
+}
+div.kz.body-copy{
+  margin-top:50px;
+}
+div.kz.body-options select{
+  grid-column: 1/2;
+  padding-top:0px;
+  margin-bottom:21px;
+}
+div.kz.body-options div.typesize{
+  grid-column: 2/3;
+}
+div.kz.body-options div.line-height{
+  grid-column: 3/4;
+  grid-row: 1;
+}
+div.kz.body-options div.letter-spacing{
+  grid-column: 1/2;
+  grid-row: 2;
+}
+div.kz.body-options div.column-count{
+  margin-top:10px;
+}
+.kz-bc-one p{
+  font-size:28px;
+}
+.kz-bc-two p{
+  font-size:24px;
+}
+.kz-bc-three p{
+  font-size:20px;
+}
+.kz-bc-four p{
+  font-size:16px;
+}

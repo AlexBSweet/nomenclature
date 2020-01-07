@@ -1,0 +1,29 @@
+.queen-anne{
+  font-family: Queen Anne;
+}
+div.optical-size{
+  grid-column: 11/13;
+}
+div.qa.body-options select{
+  grid-column: 1/2;
+  padding-top:0px;
+  margin-bottom:21px;
+}
+div.qa.body-options div.typesize{
+  grid-column: 2/3;
+}
+div.qa.body-options div.weight{
+  grid-column: 3/4;
+}
+div.qa.body-options div.line-height{
+  grid-column: 1/2;
+  grid-row: 2;
+}
+div.qa.body-options div.optical-size{
+  grid-column: 2/3;
+  grid-row: 2;
+}
+div.qa.body-options div.letter-spacing{
+  grid-column: 3/4;
+  grid-row: 2;
+}

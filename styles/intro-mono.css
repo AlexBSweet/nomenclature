@@ -1,0 +1,40 @@
+.intro-mono{
+  font-family: Intro Mono;
+}
+.large-text.intro-mono{
+  font-size:90px;
+  font-variation-settings: 'wght' 400;
+}
+
+div.body-copy.intro-mono{
+  margin-top:60px;
+}
+div.im.body-options div.typesize{
+  grid-column: 2/3;
+}
+div.im.body-options div.weight{
+  grid-column: 3/4;
+}
+div.im.body-options div.line-height{
+  grid-column: 1/2;
+  grid-row: 2;
+}
+div.im.body-options div.letter-spacing{
+  grid-column: 2/3;
+  grid-row: 2;
+}
+div.im.body-options div.column-count{
+  margin-top:10px;
+}
+div.im-bc-one{
+  font-size:28px;
+}
+div.im-bc-two{
+  font-size:24px;
+}
+div.im-bc-three{
+  font-size:20px;
+}
+div.im-bc-four{
+  font-size:16px;
+}

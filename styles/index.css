@@ -1,0 +1,34 @@
+
+
+section.marquee-container{
+  height:400vh;
+}
+div.marquee-top{
+  font-size: 128px;
+  position: fixed;
+  top:0;
+  left:0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

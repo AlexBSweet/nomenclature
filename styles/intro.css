@@ -1,0 +1,30 @@
+div.int.body-options div.typesize{
+  grid-column: 2/3;
+}
+div.int.body-options div.weight{
+  grid-column: 3/4;
+}
+div.int.body-options div.line-height{
+  grid-column: 1/2;
+  grid-row: 2;
+}
+div.int.body-options div.slant{
+  grid-column: 2/3;
+  grid-row: 2;
+}
+div.int.body-options div.letter-spacing{
+  grid-column: 3/4;
+  grid-row: 2;
+}
+.int-bc-one p{
+  font-size:28px;
+}
+.int-bc-two p{
+  font-size:24px;
+}
+.int-bc-three p{
+  font-size:20px;
+}
+.int-bc-four p{
+  font-size:16px;
+}
